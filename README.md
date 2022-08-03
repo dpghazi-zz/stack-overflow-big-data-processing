@@ -18,7 +18,7 @@
     - Security and access
         - EC2 key pair (used Amazon EC2 to create an ED25519 key pair)
 - Set-up a new S3 bucket to upload file ("survey_results_public.csv") so EMR can access it for data processing
-- Inserted a new folder within the S3 bucket called “data source” that contains the csv file
+- Inserted a new folder within the same S3 bucket called “data source” that contains the csv file
 - Created a Spark application in a Python file called “main.py” for Spark storage job to process data
 - Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted “main.py” for data processing
 - A new folder called “data output” was created in the same S3 bucket, executing commands from the “main.py” file
