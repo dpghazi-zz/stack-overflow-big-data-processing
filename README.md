@@ -1,13 +1,14 @@
 # AWS EMR Big Data Processing w/ Spark and Hadoop | Python, PySpark 
 ## **Project Description**
 
-- Spun an EMR cluster and performed spark-submit to process data from the [2021 Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey).
-- Wrote codes (Python & PySparkSQL) for Spark storage job to process the data.
-- Connected to EMR master node using SSH to run interactive queries, examine log files, and submit Linux commands via Amazon Linux 2.
+- Launched an Elastic MapReduce (EMR) cluster and created a Spark application written in Python.
+- Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [2021 Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey).
+- Created an S3 bucket to upload the data so EMR can access it for data processing.
+- Locally issued Linux commands (Amazon Linux 2) to master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
 
 ### **Overview**
 
-- Created an EMR cluster with cluster launch mode where a S3 bucket was created automatically to store the logs
+- Created an EMR cluster with cluster launch mode and first S3 bucket was created automatically to store logs
     - Software Configuration
         - emr-5.33.0
         - Spark: Spark 2.4.7 on Hadoop 2.10.1 YARN and Zeppelin 0.9.0
@@ -16,11 +17,11 @@
         - Number of instances: 3
     - Security and access
         - EC2 key pair (used Amazon EC2 to create an ED25519 key pair)
-- Created a S3 bucket to upload the file (survey_results_public.csv) so EMR can access it for data processing
-- Created a new folder within the S3 bucket called “data source” that contains the csv file
-- Wrote codes (Python & PySparkSQL) in a Python file called “main.py” for the Spark storage job to process the data
-- Opened port 22 to SSH into EMR cluster using IP address and spark-submitted the Python file for data processing
-- A new folder called “data output” was created in the same S3 bucket executing the script from “main.py" file
+- Set-up a new S3 bucket to upload file (survey_results_public.csv) so EMR can access it for data processing
+- Inserted a new folder within the S3 bucket called “data source” that contains the csv file
+- Created a Spark application in a Python file called “main.py” for Spark storage job to process data
+- Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted “main.py” for data processing
+- A new folder called “data output” was created in the same S3 bucket, executing commands from the “main.py” file
 
 ### Language **& Tools**
 
