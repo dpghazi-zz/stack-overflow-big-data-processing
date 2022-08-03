@@ -1,7 +1,7 @@
 # AWS EMR Big Data Processing w/ Spark and Hadoop | Python, PySpark 
 ## **Project Description**
 
-- Launched an Elastic MapReduce (EMR) cluster and created a Spark application written in Python.
+- Launched an Elastic MapReduce (based on Apache Hadoop) cluster and created a Spark application written in Python.
 - Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [2021 Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey).
 - Created an S3 bucket to upload a CSV file so EMR can access it for data processing.
 - Locally issued Linux commands (Amazon Linux 2) to the master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
