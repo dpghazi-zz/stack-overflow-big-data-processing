@@ -25,7 +25,7 @@
 
 ### Language **& Tools**
 
-- Python
-- SQL (PySparkSQL)
+- Python (PySpark)
+- SQL 
 - Shell
 - AWS (EMR, EC2, S3, Amazon Linux 2)
