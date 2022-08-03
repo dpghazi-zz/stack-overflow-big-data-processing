@@ -4,7 +4,7 @@
 - Launched an Elastic MapReduce (EMR) cluster and created a Spark application written in Python.
 - Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [2021 Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey).
 - Created an S3 bucket to upload the data so EMR can access it for data processing.
-- Locally issued Linux commands (Amazon Linux 2) to master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
+- Locally issued Linux commands (Amazon Linux 2) to the master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
 
 ### **Overview**
 
