@@ -25,7 +25,8 @@
 
 ### Language **& Tools**
 
-- Python (PySpark)
-- SQL 
+- Python
+- Spark (PySpark)
+- Hadoop Distribution: Amazon EMR
 - Shell
 - AWS (EMR, EC2, S3, Amazon Linux 2)
