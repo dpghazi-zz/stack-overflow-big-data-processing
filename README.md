@@ -10,13 +10,13 @@
 
 - Created an EMR cluster with cluster launch mode and initial S3 bucket was created automatically to store logs
     - Software Configuration
-        - emr-5.33.0
-        - Spark: Spark 2.4.7 on Hadoop 2.10.1 YARN and Zeppelin 0.9.0
+        - emr-5.36.0
+        - Spark: Spark 2.4.8 on Hadoop 2.10.1 YARN and Zeppelin 0.10.0
     - Hardware Configuration
         - m5.xlarge
         - Number of instances: 3
     - Security and access
-        - EC2 key pair (used Amazon EC2 to create an ED25519 key pair)
+        - EC2 key pair (used Amazon EC2 to create a RSA key pair)
 ![Kapture 2022-08-17 at 16 07 08](https://user-images.githubusercontent.com/94224903/185259581-10e86439-fb22-48de-8593-f423cd1e2079.gif)
 - Set-up a new S3 bucket to upload file ("survey_results_public.csv") so EMR can access it for data processing
 - Inserted a new folder within the same S3 bucket called “data source” that contains the CSV file
