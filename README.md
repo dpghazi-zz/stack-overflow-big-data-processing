@@ -1,4 +1,4 @@
-# AWS EMR Big Data Processing w/ Spark and Hadoop | Python, PySpark 
+# 2021 Stack Overflow Annual Developer Survey | Python, Spark (PySpark), Hadoop (EMR), AWS (EMR, EC2, S3, Amazon Linux 2)
 ## **Project Description**
 
 - Spun an Elastic MapReduce cluster (based on Apache Hadoop) and created a Spark application written in Python.
