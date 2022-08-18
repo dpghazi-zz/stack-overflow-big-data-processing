@@ -47,6 +47,10 @@ if __name__ == '__main__':
 ![Kapture 2022-08-17 at 17 35 25](https://user-images.githubusercontent.com/94224903/185267170-3fd6b9ac-9578-4b03-abe6-f4039d36a675.gif)
 ![Kapture 2022-08-17 at 18 49 00](https://user-images.githubusercontent.com/94224903/185274467-d4207aae-f728-4f5a-9999-62b1e027681c.gif)
 ![Kapture 2022-08-17 at 18 53 44](https://user-images.githubusercontent.com/94224903/185275094-b45bc7bb-84d1-4f17-87c4-5b3da50f8acb.gif)
+![Screen Shot 2022-08-17 at 6 56 05 PM](https://user-images.githubusercontent.com/94224903/185275382-d63b5857-8789-4c58-beea-626a728f3644.jpg)
+![Screen Shot 2022-08-17 at 6 56 28 PM](https://user-images.githubusercontent.com/94224903/185275385-e4e65f29-454f-4191-b5ec-cbccd10e0c02.jpg)
+![Screen Shot 2022-08-17 at 6 56 49 PM](https://user-images.githubusercontent.com/94224903/185275394-a7085e0e-59b0-4044-8e12-5795fa823954.jpg)
+
 
 - A new folder called "data output" was created in the same S3 bucket, executing commands from the "main.py" file
 
