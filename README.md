@@ -43,6 +43,8 @@ if __name__ == '__main__':
     main()
 ```
 - Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted “main.py” for data processing
+![Kapture 2022-08-17 at 17 35 25](https://user-images.githubusercontent.com/94224903/185267170-3fd6b9ac-9578-4b03-abe6-f4039d36a675.gif)
+
 - A new folder called “data output” was created in the same S3 bucket, executing commands from the “main.py” file
 
 ### Language **& Tools**
