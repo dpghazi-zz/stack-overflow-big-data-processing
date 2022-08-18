@@ -23,6 +23,26 @@
 - Inserted a new folder within the same S3 bucket called “data source” that contains the CSV file
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
 - Created a Spark application in a Python file called “main.py” for Spark storage job to process data
+```Python
+YourCode in that language
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+
+S3_DATA_SOURCE_PATH = 's3://stackoverflow-123456/data-source/survey_results_public.csv'
+S3_DATA_OUTPUT_PATH = 's3://stackoverflow-123456/data-output'
+
+def main ():
+    spark = SparkSession.builder.appName('StackoverflowApp').getOrCreate()
+    all_data = spark.read.csv(S3_DATA_SOURCE_PATH, header=True)
+    print('Total number of records in the source data: %s' % all_data.count())
+    selected_data = all_data.where((col('Country') == 'United States') & (col('WorkWeekHrs') > 45))
+    print('The number of engineers who work more than 45 hours a week in the US is: %s' % selected_data.count())
+    selected_data.write.mode('overwrite').parquet(S3_DATA_OUTPUT_PATH)
+    print('Selected data was was successfully saved to S3: %s' % S3_DATA_OUTPUT_PATH)
+
+if __name__ == '__main__':
+    main()
+```
 ![Screen Shot 2022-08-17 at 5 23 53 PM](https://user-images.githubusercontent.com/94224903/185266449-a3a40036-ec3f-4e8f-9892-766baced7760.jpg)
 
 - Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted “main.py” for data processing
