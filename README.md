@@ -18,7 +18,7 @@
     - Security and access
         - EC2 key pair (used Amazon EC2 to create a RSA key pair)
 ![Kapture 2022-08-17 at 16 07 08](https://user-images.githubusercontent.com/94224903/185259581-10e86439-fb22-48de-8593-f423cd1e2079.gif)
-- Set-up a new S3 bucket to upload file '''survey_results_public.csv''' so EMR can access it for data processing
+- Set-up a new S3 bucket to upload file 'survey_results_public.csv' so EMR can access it for data processing
 ![Kapture 2022-08-17 at 17 02 56](https://user-images.githubusercontent.com/94224903/185264338-9171114a-d83c-4018-bd85-8e164c3964d8.gif)
 - Inserted a new folder within the same S3 bucket called '''data source''' that contains the CSV file
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
