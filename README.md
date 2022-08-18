@@ -24,7 +24,6 @@
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
 - Created a Spark application in a Python file called “main.py” for Spark storage job to process data
 ```Python
-YourCode in that language
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
 
