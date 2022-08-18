@@ -23,6 +23,8 @@
 - Inserted a new folder within the same S3 bucket called “data source” that contains the CSV file
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
 - Created a Spark application in a Python file called “main.py” for Spark storage job to process data
+![Screen Shot 2022-08-17 at 5 23 53 PM](https://user-images.githubusercontent.com/94224903/185266449-a3a40036-ec3f-4e8f-9892-766baced7760.jpg)
+
 - Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted “main.py” for data processing
 - A new folder called “data output” was created in the same S3 bucket, executing commands from the “main.py” file
 
