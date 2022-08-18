@@ -1,5 +1,6 @@
 # Stack Overflow Data Processing
 ## **Project Description**
+![Screen Shot 2022-08-17 at 11 48 07 AM](https://user-images.githubusercontent.com/94224903/185272147-248e5729-8a1d-4a11-b4e3-f415f87200a0.jpg)
 
 - Spun an Elastic MapReduce cluster (based on Apache Hadoop) and created a Spark application written in Python.
 - Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [2020 Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey).
