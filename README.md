@@ -20,8 +20,7 @@
 ![Kapture 2022-08-17 at 16 07 08](https://user-images.githubusercontent.com/94224903/185259581-10e86439-fb22-48de-8593-f423cd1e2079.gif)
 - Set-up a new S3 bucket to upload file ("survey_results_public.csv") so EMR can access it for data processing
 ![Kapture 2022-08-17 at 17 02 56](https://user-images.githubusercontent.com/94224903/185264338-9171114a-d83c-4018-bd85-8e164c3964d8.gif)
-
-
+![Kapture 2022-08-17 at 17 06 49](https://user-images.githubusercontent.com/94224903/185264694-97c5d94a-6e19-43ea-b987-e5fe81352932.gif)
 
 
 
