@@ -58,8 +58,8 @@ if __name__ == '__main__':
 
 ### Language **& Tools**
 
-- Python
-- Spark (PySpark)
+- Python (PySpark)
+- Spark 
 - Hadoop Distribution: MapReduce (Amazon EMR)
 - SQL (SparkSQL)
 - Linux Shell
