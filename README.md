@@ -1,4 +1,4 @@
-# Stack Overflow Survey EMR
+# AWS Stack Overflow Survey
 ## **Project Description**
 ![Screen Shot 2022-08-17 at 11 48 07 AM](https://user-images.githubusercontent.com/94224903/185272147-248e5729-8a1d-4a11-b4e3-f415f87200a0.jpg)
 
