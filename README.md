@@ -61,5 +61,6 @@ if __name__ == '__main__':
 - Python
 - Spark (PySpark)
 - Hadoop Distribution: MapReduce (Amazon EMR)
+- SQL (SparkSQL)
 - Shell
 - AWS (EMR, EC2, S3, Amazon Linux 2)
