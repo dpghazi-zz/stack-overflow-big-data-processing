@@ -52,7 +52,7 @@ if __name__ == '__main__':
 ![Screen Shot 2022-08-17 at 6 56 49 PM](https://user-images.githubusercontent.com/94224903/185275394-a7085e0e-59b0-4044-8e12-5795fa823954.jpg)
 
 
-- A new folder called "data-output" with parquet files was created in the same S3 bucket, after executing commands written in the "main.py" file
+- A new folder called "data-output" with parquet files was created in the same S3 bucket, after executing commands written in "main.py"
 ![Kapture 2022-08-17 at 18 59 50](https://user-images.githubusercontent.com/94224903/185276121-4c7831df-89a7-4637-9ece-58d4e2393a80.gif)
 
 
