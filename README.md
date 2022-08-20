@@ -2,7 +2,7 @@
 ## **Project Description**
 ![Screen Shot 2022-08-17 at 11 48 07 AM](https://user-images.githubusercontent.com/94224903/185272147-248e5729-8a1d-4a11-b4e3-f415f87200a0.jpg)
 
-- Spun an Elastic MapReduce cluster (based on Apache Hadoop) and created a Spark application written in Python.
+- Spun an Elastic MapReduce (EMR) cluster based on Apache Hadoop and created a Spark application written in Python.
 - Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [Stack Overflow Annual Developer Survey 2020](https://insights.stackoverflow.com/survey).
 - Created an S3 bucket to upload "survey_results_public.csv" file so EMR can access it for data processing.
 - Locally issued Linux commands (Amazon Linux 2) to the master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
