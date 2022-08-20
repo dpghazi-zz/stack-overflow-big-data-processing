@@ -43,7 +43,7 @@ def main ():
 if __name__ == '__main__':
     main()
 ```
-- Opened port 22 to SSH into the EMR cluster using IP address and spark-submitted "main.py" for data processing
+- Opened port 22 to SSH into the EMR cluster using IP address and ran spark-submit command for "main.py" data processing
 ![Kapture 2022-08-17 at 17 35 25](https://user-images.githubusercontent.com/94224903/185267170-3fd6b9ac-9578-4b03-abe6-f4039d36a675.gif)
 ![Kapture 2022-08-17 at 18 49 00](https://user-images.githubusercontent.com/94224903/185274467-d4207aae-f728-4f5a-9999-62b1e027681c.gif)
 ![Kapture 2022-08-17 at 18 53 44](https://user-images.githubusercontent.com/94224903/185275094-b45bc7bb-84d1-4f17-87c4-5b3da50f8acb.gif)
