@@ -61,6 +61,5 @@ if __name__ == '__main__':
 - Python
 - SQL (Spark SQL)
 - Spark (PySpark)
-- Hadoop Distribution: Amazon EMR
 - AWS (EMR, EC2, S3)
 - Bash (Amazon Linux 2)
