@@ -59,6 +59,7 @@ if __name__ == '__main__':
 ### Language **& Tools**
 
 - Python
+- SQL (Spark SQL)
 - Spark (PySpark)
 - Hadoop Distribution: Amazon EMR
 - AWS (EMR, EC2, S3)
