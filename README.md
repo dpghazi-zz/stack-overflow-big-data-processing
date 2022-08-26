@@ -9,7 +9,7 @@
 
 ### **Overview**
 
-- Created an EMR cluster with cluster launch mode and initial S3 bucket was created automatically to store logs
+- Created an EMR cluster with cluster launch mode and initial S3 bucket was created automatically to store logs.
     - Software Configuration
         - emr-5.36.0
         - Spark: Spark 2.4.8 on Hadoop 2.10.1 YARN and Zeppelin 0.10.0
@@ -19,11 +19,11 @@
     - Security and access
         - EC2 key pair (used Amazon EC2 to create a RSA key pair)
 ![Kapture 2022-08-17 at 16 07 08](https://user-images.githubusercontent.com/94224903/185259581-10e86439-fb22-48de-8593-f423cd1e2079.gif)
-- Set-up a new S3 bucket to upload file "survey_results_public.csv" so EMR can access it for data processing
+- Set-up a new S3 bucket to upload file "survey_results_public.csv" so EMR can access it for data processing.
 ![Kapture 2022-08-17 at 17 02 56](https://user-images.githubusercontent.com/94224903/185264338-9171114a-d83c-4018-bd85-8e164c3964d8.gif)
-- Inserted a new folder within the same S3 bucket called "data-source" that contains the CSV file
+- Inserted a new folder within the same S3 bucket called "data-source" that contains the CSV file.
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
-- Created a Spark application in a Python file called "main.py" for Spark storage job to process data
+- Created a Spark application in a Python file called "main.py" for Spark storage job to process data.
 ```Python
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 ![Screen Shot 2022-08-17 at 6 56 49 PM](https://user-images.githubusercontent.com/94224903/185275394-a7085e0e-59b0-4044-8e12-5795fa823954.jpg)
 
 
-- A new folder called "data-output" with parquet files was created in the same S3 bucket, after executing commands written in "main.py"
+- A new folder called "data-output" with parquet files was created in the same S3 bucket, after executing commands written in "main.py".
 ![Kapture 2022-08-17 at 18 59 50](https://user-images.githubusercontent.com/94224903/185276121-4c7831df-89a7-4637-9ece-58d4e2393a80.gif)
 
 
