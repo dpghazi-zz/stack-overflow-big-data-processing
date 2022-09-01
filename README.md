@@ -2,14 +2,14 @@
 ![Screen Shot 2022-08-17 at 11 48 07 AM](https://user-images.githubusercontent.com/94224903/185272147-248e5729-8a1d-4a11-b4e3-f415f87200a0.jpg)
 
 ## **Project Description**
-- Spun an Elastic MapReduce (EMR) cluster based on Apache Hadoop and created a Spark application written in Python.
+- Spun an Elastic MapReduce (EMR) cluster based on Spark and created a Spark application written in Python.
 - Implemented Python API for Apache Spark (PySpark) and performed spark-submit to process data from the [Stack Overflow Annual Developer Survey 2020](https://insights.stackoverflow.com/survey).
-- Created an S3 bucket to upload "survey_results_public.csv file so EMR can access it for data processing.
-- Locally issued Linux commands (Amazon Linux 2) to the master node by connecting to Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
+- Created an S3 bucket to upload "survey_results_public.csv" file so EMR can access it for data processing.
+- Locally issued Linux commands (Amazon Linux 2) to the EMR cluster's master node by connecting to an Elastic Compute Cloud (EC2) instance using Secure Shell (SSH) connection.
 
 ### **Overview**
 
-- Created an EMR cluster with cluster launch mode and initial S3 bucket was created automatically to store logs.
+- Created an EMR cluster with cluster launch mode and an initial S3 bucket was created automatically to store logs.
     - Software Configuration
         - emr-5.36.0
         - Spark: Spark 2.4.8 on Hadoop 2.10.1 YARN and Zeppelin 0.10.0
@@ -19,7 +19,7 @@
     - Security and access
         - EC2 key pair (used Amazon EC2 to create a RSA key pair)
 ![Kapture 2022-08-17 at 16 07 08](https://user-images.githubusercontent.com/94224903/185259581-10e86439-fb22-48de-8593-f423cd1e2079.gif)
-- Set-up a new S3 bucket to upload file "survey_results_public.csv" so EMR can access it for data processing.
+- Set-up a new S3 bucket to upload the file "survey_results_public.csv" so EMR can access it for data processing.
 ![Kapture 2022-08-17 at 17 02 56](https://user-images.githubusercontent.com/94224903/185264338-9171114a-d83c-4018-bd85-8e164c3964d8.gif)
 - Inserted a new folder within the same S3 bucket called "data-source" that contains the CSV file.
 ![Kapture 2022-08-17 at 17 12 50](https://user-images.githubusercontent.com/94224903/185265193-2391efaa-5f12-48a6-89c2-05a8fd609765.gif)
